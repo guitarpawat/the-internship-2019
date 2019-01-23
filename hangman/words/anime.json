@@ -1,0 +1,49 @@
+{
+    "category": "Anime",
+    "words": [
+        {
+            "word": "Silver Spoon", 
+            "hint": "Farmer's Life"
+        },
+        {
+            "word": "Fullmetal Alchemist", 
+            "hint": "No Body"
+        },
+        {
+            "word": "Gash Bell!!", 
+            "hint": "Spell"
+        },
+        {
+            "word": "Tamako Market", 
+            "hint": "Mochi Shop"
+        },
+        {
+            "word": "Bakuman",
+            "hint": "Manga"
+        },
+        {
+            "word": "Kokoro Connect",
+            "hint": "Cultural Research Club"
+        },
+        {
+            "word": "Hyouka",
+            "hint": "Curious, Mystery"
+        },
+        {
+            "word": "Spirited Away",
+            "hint": "Another World, Pigs"
+        },
+        {
+            "word": "Steamboy",
+            "hint": "Steam-powered"
+        },
+        {
+            "word": "Kakegurui",
+            "hint": "Gambling"
+        },
+        {
+            "word": "Kotoura-san",
+            "hint": "ESP"
+        }
+    ]
+}

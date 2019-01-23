@@ -1,0 +1,53 @@
+{
+    "category": "Country",
+    "words": [
+        {
+            "word": "United States of America",
+            "hint": "Canal Zone"
+        },
+        {
+            "word": "United Kingdom", 
+            "hint": "Exiting"
+        },
+        {
+            "word": "Thailand",
+            "hint": "Gunvynaq"
+        },
+        {
+            "word": "Germany",
+            "hint": "World War II"
+        },
+        {
+            "word": "France",
+            "hint": "Indochina"
+        },
+        {
+            "word": "China",
+            "hint": "+86"
+        },
+        {
+            "word": "Japan",
+            "hint": "Sun"
+        },
+        {
+            "word": "North Korea",
+            "hint": "Supreme Leader"
+        },
+        {
+            "word": "Laos",
+            "hint": "North East"
+        },
+        {
+            "word": "Italy",
+            "hint": "Famous Food"
+        },
+        {
+            "word": "Mexico",
+            "hint": "Wall"
+        },
+        {
+            "word": "South Africa",
+            "hint": "Oh, Football"
+        }
+    ]
+}
