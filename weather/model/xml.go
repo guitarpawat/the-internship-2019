@@ -104,6 +104,63 @@ type LastUpdateXML struct {
 	Value   string   `xml:"value,attr"`
 }
 
-func (current CurrentXML) ToJSON() CurrentJSON {
-	return CurrentJSON{}
+func (c CurrentXML) ToJSON() CurrentJSON {
+	return CurrentJSON{
+		City: CityJSON{
+			ID:   c.City.ID,
+			Name: c.City.Name,
+			Coord: CoordJSON{
+				Lon: c.City.Coord.Lon,
+				Lat: c.City.Coord.Lat,
+			},
+			Country: c.City.Country,
+			Sun: SunJSON{
+				Rise: c.City.Sun.Rise,
+				Set:  c.City.Sun.Set,
+			},
+		},
+		Temperature: TemperatureJSON{
+			Value: c.Temperature.Value,
+			Min:   c.Temperature.Min,
+			Max:   c.Temperature.Max,
+			Unit:  c.Temperature.Unit,
+		},
+		Humidity: HumidityJSON{
+			Value: c.Humidity.Value,
+			Unit:  c.Humidity.Unit,
+		},
+		Pressure: PressureJSON{
+			Value: c.Pressure.Value,
+			Unit:  c.Pressure.Unit,
+		},
+		Wind: WindJSON{
+			Speed: SpeedJSON{
+				Value: c.Wind.Speed.Value,
+				Name:  c.Wind.Speed.Name,
+			},
+			Direction: DirectionJSON{
+				Value: c.Wind.Direction.Value,
+				Code:  c.Wind.Direction.Code,
+				Name:  c.Wind.Direction.Name,
+			},
+		},
+		Clouds: CloudsJSON{
+			Value: c.Clouds.Value,
+			Name:  c.Clouds.Name,
+		},
+		Visibility: VisibilityJSON{
+			Value: c.Visibility.Value,
+		},
+		Precipitation: PrecipitationJSON{
+			Mode: c.Precipitation.Mode,
+		},
+		Weather: WeatherJSON{
+			Number: c.Weather.Number,
+			Value:  c.Weather.Value,
+			Icon:   c.Weather.Icon,
+		},
+		LastUpdate: LastUpdateJSON{
+			Value: c.LastUpdate.Value,
+		},
+	}
 }
